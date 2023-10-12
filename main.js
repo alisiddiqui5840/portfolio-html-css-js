@@ -4,6 +4,6 @@ var type = new Typed(".multiple-text", {
     backspeed:100,
     backDelay: 1000,
     loop: true
-})
+});
 
 

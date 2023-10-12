@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'poppins' , sans-serif;
 }
+
 body
 {
     background: black;
@@ -167,4 +168,70 @@ font-weight: 800 ;
         transform: translateX(0);
         opacity: 1;
     }
+}
+
+
+
+
+
+@media (max-width:600px)
+{
+
+    .logo
+    {
+        font-size: 15px;
+    }
+
+        .navbar a
+        {
+            text-decoration: none;
+            color: white;
+            font-size: 10px;
+        }
+        .navbar a:hover ,
+.navbar a.active
+{
+    color: aqua;
+    font-size: 12px;
+}
+
+.homecontent
+{
+    
+    top: 25%;
+    }
+    .homecontent p{
+        font-size: 14px;
+        padding: 22px 7px 22px 0px;
+    }
+
+    .homecontent h3 {
+        font-size: 29px;
+        margin-bottom: -11px;
+    }
+
+    .homecontent h1{
+        font-size: 32px;
+        padding: 33px 23px;
+    }
+    .home 
+{
+    height: 76vh;
+    padding: 2px 3% 132px
+
+}
+.homecontent h3:nth-last-of-type(2) {
+    margin-bottom: 2px;
+}
+.home-img img{
+    width: 100px;
+    height: 150px;
+    margin: -178px 15px 171px -44px;
+   
+}
+
+.socialmedia a{
+
+    margin: 5px 62px -51px 35px
+}
 }
